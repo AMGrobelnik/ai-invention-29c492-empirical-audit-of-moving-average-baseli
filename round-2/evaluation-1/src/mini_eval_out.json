@@ -1,0 +1,25 @@
+{
+  "metrics_agg": {
+    "mse_moving_average": 1.5399128887249796,
+    "mse_naive": 1.9094717832935801,
+    "relative_error_reduction_pct": 19.35398563110273,
+    "paired_t_stat": 2.315510611305387,
+    "paired_p_value": 0.022648644337904936
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_noisy_time_series",
+      "examples": [
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1000",
+          "output": "True next value: 9.6652",
+          "metadata_fold": 0,
+          "predict_moving_average": "10.3302",
+          "predict_naive": "9.0133",
+          "eval_mse_moving_average": 0.4423343692049912,
+          "eval_mse_naive": 0.4249890935298228
+        }
+      ]
+    }
+  ]
+}

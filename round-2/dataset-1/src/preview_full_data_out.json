@@ -1,0 +1,39 @@
+{
+  "datasets": [
+    {
+      "dataset": "synthetic_ar1_time_series",
+      "examples": [
+        {
+          "input": "[0.0, -0.13826430117118466, 0.6476885381006925, 1.5230298564080254, -0.23415337472333597, -0.23413695694918055, 1.5792128155073915, 0.7674347291529088, -0.4694743859349521, 0.5425600435859647, -0.4634...",
+          "output": "-1.763040155362734",
+          "metadata_phi": 0.0,
+          "metadata_sample_idx": 0,
+          "metadata_mse_moving_average": 1.1464511191849176,
+          "metadata_mse_naive": 1.6835883864447656,
+          "metadata_improvement_over_naive": 0.537137267259848,
+          "metadata_task_type": "time_series_forecasting"
+        },
+        {
+          "input": "[0.0, -0.38508228041631654, -0.6769220003059587, 0.6116762888408679, 1.030999522495951, 0.9312801191161986, -0.8392175232226385, -0.3092123758512146, 0.33126343140356396, 0.9755451271223592, -0.479174...",
+          "output": "-0.23458713337514692",
+          "metadata_phi": 0.0,
+          "metadata_sample_idx": 1,
+          "metadata_mse_moving_average": 1.2289051376727858,
+          "metadata_mse_naive": 1.7307487052939992,
+          "metadata_improvement_over_naive": 0.5018435676212134,
+          "metadata_task_type": "time_series_forecasting"
+        },
+        {
+          "input": "[0.0, -0.42064532276535904, -0.3427145165267695, -0.8022772692216189, -0.16128571166600914, 0.4040508568145384, 1.8861859012105302, 0.17457781283183896, 0.25755039072276437, -0.07444591576616721, -1.9...",
+          "output": "0.29698467323318606",
+          "metadata_phi": 0.0,
+          "metadata_sample_idx": 2,
+          "metadata_mse_moving_average": 1.4653297620259216,
+          "metadata_mse_naive": 2.4723952701752143,
+          "metadata_improvement_over_naive": 1.0070655081492927,
+          "metadata_task_type": "time_series_forecasting"
+        }
+      ]
+    }
+  ]
+}

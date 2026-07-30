@@ -1,0 +1,9 @@
+[project]
+name = "gen_art_experiment_1"
+version = "0.1.0"
+description = "Moving Average vs Naive Forecast Experiment"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==2.5.1",
+    "loguru==0.7.3"
+]

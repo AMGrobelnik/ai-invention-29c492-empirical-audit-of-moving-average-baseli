@@ -1,0 +1,916 @@
+{
+  "metrics_agg": {
+    "mse_moving_average": 1.5399128887249796,
+    "mse_naive": 1.9094717832935801,
+    "relative_error_reduction_pct": 19.35398563110273,
+    "paired_t_stat": 2.315510611305387,
+    "paired_p_value": 0.022648644337904936
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_noisy_time_series",
+      "examples": [
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1000",
+          "output": "True next value: 9.6652",
+          "metadata_fold": 0,
+          "predict_moving_average": "10.3302",
+          "predict_naive": "9.0133",
+          "eval_mse_moving_average": 0.4423343692049912,
+          "eval_mse_naive": 0.4249890935298228
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1001",
+          "output": "True next value: 10.5884",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.3612",
+          "predict_naive": "9.6123",
+          "eval_mse_moving_average": 0.051642103006915026,
+          "eval_mse_naive": 0.9527762367291853
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1002",
+          "output": "True next value: 9.2228",
+          "metadata_fold": 2,
+          "predict_moving_average": "10.0120",
+          "predict_naive": "11.2214",
+          "eval_mse_moving_average": 0.6228393162874986,
+          "eval_mse_naive": 3.994375243052055
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1003",
+          "output": "True next value: 8.3297",
+          "metadata_fold": 3,
+          "predict_moving_average": "8.9841",
+          "predict_naive": "7.4448",
+          "eval_mse_moving_average": 0.42819045149410945,
+          "eval_mse_naive": 0.7830650543193372
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1004",
+          "output": "True next value: 8.9793",
+          "metadata_fold": 4,
+          "predict_moving_average": "9.9467",
+          "predict_naive": "8.7350",
+          "eval_mse_moving_average": 0.9359598742051869,
+          "eval_mse_naive": 0.059656291035033684
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1005",
+          "output": "True next value: 11.1359",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.6283",
+          "predict_naive": "8.9571",
+          "eval_mse_moving_average": 2.272870384668126,
+          "eval_mse_naive": 4.747461204986085
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1006",
+          "output": "True next value: 11.6051",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.3466",
+          "predict_naive": "10.1991",
+          "eval_mse_moving_average": 1.5839683473793644,
+          "eval_mse_naive": 1.9769885194698626
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1007",
+          "output": "True next value: 7.8227",
+          "metadata_fold": 2,
+          "predict_moving_average": "10.2127",
+          "predict_naive": "10.5415",
+          "eval_mse_moving_average": 5.712197071444335,
+          "eval_mse_naive": 7.391561899608156
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1008",
+          "output": "True next value: 8.6398",
+          "metadata_fold": 3,
+          "predict_moving_average": "10.0000",
+          "predict_naive": "9.3725",
+          "eval_mse_moving_average": 1.8500703649329653,
+          "eval_mse_naive": 0.5368704559806381
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1009",
+          "output": "True next value: 10.2937",
+          "metadata_fold": 4,
+          "predict_moving_average": "9.7645",
+          "predict_naive": "10.2542",
+          "eval_mse_moving_average": 0.2800399055802166,
+          "eval_mse_naive": 0.0015584366321119319
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1010",
+          "output": "True next value: 10.7630",
+          "metadata_fold": 0,
+          "predict_moving_average": "10.2166",
+          "predict_naive": "9.6932",
+          "eval_mse_moving_average": 0.2985049539326185,
+          "eval_mse_naive": 1.1444033495265726
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1011",
+          "output": "True next value: 9.5473",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.2675",
+          "predict_naive": "12.0151",
+          "eval_mse_moving_average": 0.518641622712301,
+          "eval_mse_naive": 6.089728754062648
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1012",
+          "output": "True next value: 10.0040",
+          "metadata_fold": 2,
+          "predict_moving_average": "9.7243",
+          "predict_naive": "10.6573",
+          "eval_mse_moving_average": 0.07825705891674385,
+          "eval_mse_naive": 0.42673023002859517
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1013",
+          "output": "True next value: 10.1333",
+          "metadata_fold": 3,
+          "predict_moving_average": "10.4939",
+          "predict_naive": "9.8726",
+          "eval_mse_moving_average": 0.13004619529765224,
+          "eval_mse_naive": 0.0679621836910355
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1014",
+          "output": "True next value: 9.7430",
+          "metadata_fold": 4,
+          "predict_moving_average": "10.4092",
+          "predict_naive": "12.1509",
+          "eval_mse_moving_average": 0.44380647892638936,
+          "eval_mse_naive": 5.797998165095227
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1015",
+          "output": "True next value: 9.9780",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.5457",
+          "predict_naive": "10.4571",
+          "eval_mse_moving_average": 0.18689150134658927,
+          "eval_mse_naive": 0.2294847762547959
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1016",
+          "output": "True next value: 9.7878",
+          "metadata_fold": 1,
+          "predict_moving_average": "9.6550",
+          "predict_naive": "8.9937",
+          "eval_mse_moving_average": 0.017620735810244748,
+          "eval_mse_naive": 0.6304838060418511
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1017",
+          "output": "True next value: 9.2067",
+          "metadata_fold": 2,
+          "predict_moving_average": "10.2794",
+          "predict_naive": "10.1523",
+          "eval_mse_moving_average": 1.150606797510596,
+          "eval_mse_naive": 0.8941496896171465
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1018",
+          "output": "True next value: 9.9743",
+          "metadata_fold": 3,
+          "predict_moving_average": "9.1236",
+          "predict_naive": "8.9751",
+          "eval_mse_moving_average": 0.7235653276158952,
+          "eval_mse_naive": 0.9983321132201025
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1019",
+          "output": "True next value: 9.0228",
+          "metadata_fold": 4,
+          "predict_moving_average": "11.4993",
+          "predict_naive": "10.8649",
+          "eval_mse_moving_average": 6.133073891877129,
+          "eval_mse_naive": 3.393200086135556
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1020",
+          "output": "True next value: 9.7375",
+          "metadata_fold": 0,
+          "predict_moving_average": "10.6347",
+          "predict_naive": "11.5574",
+          "eval_mse_moving_average": 0.8048116187895838,
+          "eval_mse_naive": 3.31203680054048
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1021",
+          "output": "True next value: 9.4922",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.5537",
+          "predict_naive": "8.3209",
+          "eval_mse_moving_average": 1.1268458450689338,
+          "eval_mse_naive": 1.371934635798855
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1022",
+          "output": "True next value: 9.1246",
+          "metadata_fold": 2,
+          "predict_moving_average": "10.0852",
+          "predict_naive": "9.9057",
+          "eval_mse_moving_average": 0.9228199466217785,
+          "eval_mse_naive": 0.6101561330634164
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1023",
+          "output": "True next value: 8.8412",
+          "metadata_fold": 3,
+          "predict_moving_average": "10.5904",
+          "predict_naive": "9.8848",
+          "eval_mse_moving_average": 3.0596773226569307,
+          "eval_mse_naive": 1.0891031319853057
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1024",
+          "output": "True next value: 9.3418",
+          "metadata_fold": 4,
+          "predict_moving_average": "10.5684",
+          "predict_naive": "10.8452",
+          "eval_mse_moving_average": 1.5044838531058504,
+          "eval_mse_naive": 2.2602073066647965
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1025",
+          "output": "True next value: 9.9247",
+          "metadata_fold": 0,
+          "predict_moving_average": "10.4094",
+          "predict_naive": "8.9724",
+          "eval_mse_moving_average": 0.23492468634923055,
+          "eval_mse_naive": 0.9069791763107528
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1026",
+          "output": "True next value: 10.4360",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.5002",
+          "predict_naive": "11.5812",
+          "eval_mse_moving_average": 0.004116264636846884,
+          "eval_mse_naive": 1.3115079031175207
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1027",
+          "output": "True next value: 8.2443",
+          "metadata_fold": 2,
+          "predict_moving_average": "10.5107",
+          "predict_naive": "11.0349",
+          "eval_mse_moving_average": 5.136709284315654,
+          "eval_mse_naive": 7.787712716249401
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1028",
+          "output": "True next value: 11.2304",
+          "metadata_fold": 3,
+          "predict_moving_average": "9.8170",
+          "predict_naive": "10.1674",
+          "eval_mse_moving_average": 1.9977281042696828,
+          "eval_mse_naive": 1.1299369208800945
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1029",
+          "output": "True next value: 9.8598",
+          "metadata_fold": 4,
+          "predict_moving_average": "10.8739",
+          "predict_naive": "10.6519",
+          "eval_mse_moving_average": 1.0283933772380198,
+          "eval_mse_naive": 0.62729055141341
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1030",
+          "output": "True next value: 9.2174",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.4869",
+          "predict_naive": "8.8161",
+          "eval_mse_moving_average": 0.07260890227732911,
+          "eval_mse_naive": 0.16105529608072353
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1031",
+          "output": "True next value: 11.2908",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.2131",
+          "predict_naive": "9.2690",
+          "eval_mse_moving_average": 1.1614695082332893,
+          "eval_mse_naive": 4.087717041760871
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1032",
+          "output": "True next value: 10.5507",
+          "metadata_fold": 2,
+          "predict_moving_average": "10.2879",
+          "predict_naive": "9.6684",
+          "eval_mse_moving_average": 0.06904995000809654,
+          "eval_mse_naive": 0.7784052871389356
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1033",
+          "output": "True next value: 8.8191",
+          "metadata_fold": 3,
+          "predict_moving_average": "9.7894",
+          "predict_naive": "10.7749",
+          "eval_mse_moving_average": 0.9416398622689129,
+          "eval_mse_naive": 3.8251066803232705
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1034",
+          "output": "True next value: 10.5141",
+          "metadata_fold": 4,
+          "predict_moving_average": "9.2578",
+          "predict_naive": "9.0551",
+          "eval_mse_moving_average": 1.57850270534458,
+          "eval_mse_naive": 2.1289169525013008
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1035",
+          "output": "True next value: 9.6050",
+          "metadata_fold": 0,
+          "predict_moving_average": "10.0550",
+          "predict_naive": "10.3204",
+          "eval_mse_moving_average": 0.20245516093767166,
+          "eval_mse_naive": 0.5117321604255112
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1036",
+          "output": "True next value: 10.6079",
+          "metadata_fold": 1,
+          "predict_moving_average": "9.3385",
+          "predict_naive": "7.9864",
+          "eval_mse_moving_average": 1.611363592983529,
+          "eval_mse_naive": 6.872172251525749
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1037",
+          "output": "True next value: 9.1988",
+          "metadata_fold": 2,
+          "predict_moving_average": "11.4851",
+          "predict_naive": "11.3839",
+          "eval_mse_moving_average": 5.227270065092701,
+          "eval_mse_naive": 4.775046391830384
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1038",
+          "output": "True next value: 12.0164",
+          "metadata_fold": 3,
+          "predict_moving_average": "9.8836",
+          "predict_naive": "10.1355",
+          "eval_mse_moving_average": 4.5489259988049096,
+          "eval_mse_naive": 3.537920351282741
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1039",
+          "output": "True next value: 11.0458",
+          "metadata_fold": 4,
+          "predict_moving_average": "9.9430",
+          "predict_naive": "9.5491",
+          "eval_mse_moving_average": 1.216200682500755,
+          "eval_mse_naive": 2.2403003801680335
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1040",
+          "output": "True next value: 10.3421",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.8165",
+          "predict_naive": "10.5633",
+          "eval_mse_moving_average": 0.2762529730228929,
+          "eval_mse_naive": 0.04891215988162768
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1041",
+          "output": "True next value: 9.3934",
+          "metadata_fold": 1,
+          "predict_moving_average": "9.5755",
+          "predict_naive": "10.0616",
+          "eval_mse_moving_average": 0.03316197903343827,
+          "eval_mse_naive": 0.4465331319237972
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1042",
+          "output": "True next value: 9.9434",
+          "metadata_fold": 2,
+          "predict_moving_average": "9.1303",
+          "predict_naive": "7.6846",
+          "eval_mse_moving_average": 0.6611592178374053,
+          "eval_mse_naive": 5.102429966993921
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1043",
+          "output": "True next value: 10.6213",
+          "metadata_fold": 3,
+          "predict_moving_average": "9.9395",
+          "predict_naive": "9.3574",
+          "eval_mse_moving_average": 0.46487504602093893,
+          "eval_mse_naive": 1.5976241147669088
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1044",
+          "output": "True next value: 8.0223",
+          "metadata_fold": 4,
+          "predict_moving_average": "10.4944",
+          "predict_naive": "10.8765",
+          "eval_mse_moving_average": 6.111356905053542,
+          "eval_mse_naive": 8.146768247252748
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1045",
+          "output": "True next value: 10.2068",
+          "metadata_fold": 0,
+          "predict_moving_average": "8.7885",
+          "predict_naive": "10.4461",
+          "eval_mse_moving_average": 2.0115761480463994,
+          "eval_mse_naive": 0.05729928123851297
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1046",
+          "output": "True next value: 10.3976",
+          "metadata_fold": 1,
+          "predict_moving_average": "9.6003",
+          "predict_naive": "8.8983",
+          "eval_mse_moving_average": 0.6357003498345368,
+          "eval_mse_naive": 2.2479474832039226
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1047",
+          "output": "True next value: 10.3755",
+          "metadata_fold": 2,
+          "predict_moving_average": "9.6085",
+          "predict_naive": "10.6653",
+          "eval_mse_moving_average": 0.5882347246559154,
+          "eval_mse_naive": 0.08400817159697106
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1048",
+          "output": "True next value: 9.8515",
+          "metadata_fold": 3,
+          "predict_moving_average": "10.0575",
+          "predict_naive": "10.5620",
+          "eval_mse_moving_average": 0.0424436338489688,
+          "eval_mse_naive": 0.5049429375307449
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1049",
+          "output": "True next value: 10.9607",
+          "metadata_fold": 4,
+          "predict_moving_average": "10.4660",
+          "predict_naive": "11.2484",
+          "eval_mse_moving_average": 0.24470257614645607,
+          "eval_mse_naive": 0.08276837418033571
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1050",
+          "output": "True next value: 10.0434",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.3069",
+          "predict_naive": "8.5913",
+          "eval_mse_moving_average": 0.5424388467296635,
+          "eval_mse_naive": 2.108493372458083
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1051",
+          "output": "True next value: 9.1102",
+          "metadata_fold": 1,
+          "predict_moving_average": "9.9341",
+          "predict_naive": "10.4342",
+          "eval_mse_moving_average": 0.6787195443452215,
+          "eval_mse_naive": 1.753016106869107
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1052",
+          "output": "True next value: 12.2771",
+          "metadata_fold": 2,
+          "predict_moving_average": "9.2659",
+          "predict_naive": "8.8210",
+          "eval_mse_moving_average": 9.067410167133104,
+          "eval_mse_naive": 11.94429886977468
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1053",
+          "output": "True next value: 10.0700",
+          "metadata_fold": 3,
+          "predict_moving_average": "9.1733",
+          "predict_naive": "8.9344",
+          "eval_mse_moving_average": 0.8040741547112521,
+          "eval_mse_naive": 1.2895838525675811
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1054",
+          "output": "True next value: 10.2760",
+          "metadata_fold": 4,
+          "predict_moving_average": "10.5384",
+          "predict_naive": "11.0583",
+          "eval_mse_moving_average": 0.06885549901369442,
+          "eval_mse_naive": 0.6119662974700889
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1055",
+          "output": "True next value: 11.0611",
+          "metadata_fold": 0,
+          "predict_moving_average": "10.4140",
+          "predict_naive": "10.1296",
+          "eval_mse_moving_average": 0.41877170090546234,
+          "eval_mse_naive": 0.867763973362483
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1056",
+          "output": "True next value: 12.7760",
+          "metadata_fold": 1,
+          "predict_moving_average": "9.1599",
+          "predict_naive": "9.0897",
+          "eval_mse_moving_average": 13.076641934697882,
+          "eval_mse_naive": 13.588988510477368
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1057",
+          "output": "True next value: 8.4005",
+          "metadata_fold": 2,
+          "predict_moving_average": "10.1980",
+          "predict_naive": "10.0680",
+          "eval_mse_moving_average": 3.2308505640881577,
+          "eval_mse_naive": 2.7806468526169468
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1058",
+          "output": "True next value: 9.7946",
+          "metadata_fold": 3,
+          "predict_moving_average": "11.1063",
+          "predict_naive": "10.9096",
+          "eval_mse_moving_average": 1.7207384052858667,
+          "eval_mse_naive": 1.2431818884103392
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1059",
+          "output": "True next value: 9.0314",
+          "metadata_fold": 4,
+          "predict_moving_average": "8.8673",
+          "predict_naive": "9.3328",
+          "eval_mse_moving_average": 0.02692623777147243,
+          "eval_mse_naive": 0.09085213758104474
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1060",
+          "output": "True next value: 11.0750",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.7383",
+          "predict_naive": "9.5999",
+          "eval_mse_moving_average": 1.7865222518541737,
+          "eval_mse_naive": 2.175788492593667
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1061",
+          "output": "True next value: 10.0942",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.9329",
+          "predict_naive": "10.2432",
+          "eval_mse_moving_average": 0.7033135505066698,
+          "eval_mse_naive": 0.022199017954259676
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1062",
+          "output": "True next value: 10.2517",
+          "metadata_fold": 2,
+          "predict_moving_average": "9.0888",
+          "predict_naive": "9.9009",
+          "eval_mse_moving_average": 1.3524310303889975,
+          "eval_mse_naive": 0.12311379407554089
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1063",
+          "output": "True next value: 9.6557",
+          "metadata_fold": 3,
+          "predict_moving_average": "10.5491",
+          "predict_naive": "9.0947",
+          "eval_mse_moving_average": 0.7980744915974088,
+          "eval_mse_naive": 0.31474546719037905
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1064",
+          "output": "True next value: 10.8786",
+          "metadata_fold": 4,
+          "predict_moving_average": "9.6677",
+          "predict_naive": "10.1120",
+          "eval_mse_moving_average": 1.4663341284808098,
+          "eval_mse_naive": 0.587652520094375
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1065",
+          "output": "True next value: 10.8900",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.4063",
+          "predict_naive": "10.0913",
+          "eval_mse_moving_average": 2.201359266174597,
+          "eval_mse_naive": 0.6379263416363739
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1066",
+          "output": "True next value: 9.6348",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.1346",
+          "predict_naive": "11.4271",
+          "eval_mse_moving_average": 0.2498174534013541,
+          "eval_mse_naive": 3.21232883148603
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1067",
+          "output": "True next value: 10.0782",
+          "metadata_fold": 2,
+          "predict_moving_average": "9.6469",
+          "predict_naive": "9.8352",
+          "eval_mse_moving_average": 0.186027414002684,
+          "eval_mse_naive": 0.059061778230969815
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1068",
+          "output": "True next value: 9.8177",
+          "metadata_fold": 3,
+          "predict_moving_average": "9.3987",
+          "predict_naive": "9.5922",
+          "eval_mse_moving_average": 0.17553760815527536,
+          "eval_mse_naive": 0.050837852672051154
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1069",
+          "output": "True next value: 10.9829",
+          "metadata_fold": 4,
+          "predict_moving_average": "10.2444",
+          "predict_naive": "9.7999",
+          "eval_mse_moving_average": 0.5453751403201654,
+          "eval_mse_naive": 1.3994933881456317
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1070",
+          "output": "True next value: 11.0780",
+          "metadata_fold": 0,
+          "predict_moving_average": "11.3405",
+          "predict_naive": "12.4719",
+          "eval_mse_moving_average": 0.06886311337473713,
+          "eval_mse_naive": 1.94288070374892
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1071",
+          "output": "True next value: 10.4360",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.1953",
+          "predict_naive": "11.6848",
+          "eval_mse_moving_average": 0.057943746895356446,
+          "eval_mse_naive": 1.5594577712387618
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1072",
+          "output": "True next value: 10.0048",
+          "metadata_fold": 2,
+          "predict_moving_average": "9.0599",
+          "predict_naive": "9.6284",
+          "eval_mse_moving_average": 0.8927256141695379,
+          "eval_mse_naive": 0.141645887379387
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1073",
+          "output": "True next value: 10.4628",
+          "metadata_fold": 3,
+          "predict_moving_average": "9.1619",
+          "predict_naive": "8.8821",
+          "eval_mse_moving_average": 1.6924965466279227,
+          "eval_mse_naive": 2.498868603277262
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1074",
+          "output": "True next value: 10.1990",
+          "metadata_fold": 4,
+          "predict_moving_average": "10.1195",
+          "predict_naive": "10.0790",
+          "eval_mse_moving_average": 0.006311578051975841,
+          "eval_mse_naive": 0.014402914842771744
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1075",
+          "output": "True next value: 10.9248",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.5309",
+          "predict_naive": "9.5965",
+          "eval_mse_moving_average": 1.942982348558888,
+          "eval_mse_naive": 1.7642375950289817
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1076",
+          "output": "True next value: 10.3468",
+          "metadata_fold": 1,
+          "predict_moving_average": "9.4070",
+          "predict_naive": "10.2741",
+          "eval_mse_moving_average": 0.8832898241703757,
+          "eval_mse_naive": 0.005292421322887058
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1077",
+          "output": "True next value: 10.6587",
+          "metadata_fold": 2,
+          "predict_moving_average": "9.8086",
+          "predict_naive": "10.3720",
+          "eval_mse_moving_average": 0.7226257840050775,
+          "eval_mse_naive": 0.08218999727080403
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1078",
+          "output": "True next value: 11.3793",
+          "metadata_fold": 3,
+          "predict_moving_average": "9.4625",
+          "predict_naive": "9.9880",
+          "eval_mse_moving_average": 3.673964386445531,
+          "eval_mse_naive": 1.9357833294848317
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1079",
+          "output": "True next value: 9.8163",
+          "metadata_fold": 4,
+          "predict_moving_average": "10.3976",
+          "predict_naive": "10.0814",
+          "eval_mse_moving_average": 0.33789943435947506,
+          "eval_mse_naive": 0.0702318710256091
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1080",
+          "output": "True next value: 11.3682",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.2899",
+          "predict_naive": "9.1790",
+          "eval_mse_moving_average": 4.319247696745911,
+          "eval_mse_naive": 4.79234739368161
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1081",
+          "output": "True next value: 10.9151",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.0974",
+          "predict_naive": "10.0215",
+          "eval_mse_moving_average": 0.6685275232474308,
+          "eval_mse_naive": 0.79845331542735
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1082",
+          "output": "True next value: 11.8988",
+          "metadata_fold": 2,
+          "predict_moving_average": "9.8848",
+          "predict_naive": "10.7116",
+          "eval_mse_moving_average": 4.055965252057311,
+          "eval_mse_naive": 1.4093482199544167
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1083",
+          "output": "True next value: 10.0621",
+          "metadata_fold": 3,
+          "predict_moving_average": "9.9547",
+          "predict_naive": "9.8351",
+          "eval_mse_moving_average": 0.011530428971322688,
+          "eval_mse_naive": 0.051534178499872095
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1084",
+          "output": "True next value: 10.3405",
+          "metadata_fold": 4,
+          "predict_moving_average": "9.6709",
+          "predict_naive": "10.0879",
+          "eval_mse_moving_average": 0.44832222192563304,
+          "eval_mse_naive": 0.06378652322501609
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1085",
+          "output": "True next value: 10.1168",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.6710",
+          "predict_naive": "8.7046",
+          "eval_mse_moving_average": 0.19876218826746808,
+          "eval_mse_naive": 1.9944907234017224
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1086",
+          "output": "True next value: 9.5055",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.6829",
+          "predict_naive": "10.6860",
+          "eval_mse_moving_average": 1.386094198168683,
+          "eval_mse_naive": 1.3935158039989026
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1087",
+          "output": "True next value: 8.2067",
+          "metadata_fold": 2,
+          "predict_moving_average": "10.0961",
+          "predict_naive": "8.9560",
+          "eval_mse_moving_average": 3.57004472218508,
+          "eval_mse_naive": 0.5614684123001864
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1088",
+          "output": "True next value: 11.4084",
+          "metadata_fold": 3,
+          "predict_moving_average": "10.0162",
+          "predict_naive": "10.5406",
+          "eval_mse_moving_average": 1.9383098365703977,
+          "eval_mse_naive": 0.7530567989778001
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1089",
+          "output": "True next value: 10.2904",
+          "metadata_fold": 4,
+          "predict_moving_average": "8.8677",
+          "predict_naive": "9.7528",
+          "eval_mse_moving_average": 2.024173263690606,
+          "eval_mse_naive": 0.2890433792847123
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1090",
+          "output": "True next value: 10.4135",
+          "metadata_fold": 0,
+          "predict_moving_average": "10.6032",
+          "predict_naive": "9.7243",
+          "eval_mse_moving_average": 0.035995143563377595,
+          "eval_mse_naive": 0.4749359588875945
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1091",
+          "output": "True next value: 10.0935",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.4673",
+          "predict_naive": "10.4785",
+          "eval_mse_moving_average": 0.13971593996481127,
+          "eval_mse_naive": 0.14821465692790625
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1092",
+          "output": "True next value: 11.8999",
+          "metadata_fold": 2,
+          "predict_moving_average": "9.7643",
+          "predict_naive": "10.0918",
+          "eval_mse_moving_average": 4.560763706281191,
+          "eval_mse_naive": 3.2693570128674483
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1093",
+          "output": "True next value: 8.8961",
+          "metadata_fold": 3,
+          "predict_moving_average": "11.0085",
+          "predict_naive": "10.9444",
+          "eval_mse_moving_average": 4.461985557045344,
+          "eval_mse_naive": 4.195599134284679
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1094",
+          "output": "True next value: 10.8887",
+          "metadata_fold": 4,
+          "predict_moving_average": "9.7795",
+          "predict_naive": "11.2374",
+          "eval_mse_moving_average": 1.2303163531837635,
+          "eval_mse_naive": 0.12154908545296277
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1095",
+          "output": "True next value: 11.8380",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.9451",
+          "predict_naive": "10.0908",
+          "eval_mse_moving_average": 3.5829571616158367,
+          "eval_mse_naive": 3.0527882745559167
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1096",
+          "output": "True next value: 10.2043",
+          "metadata_fold": 1,
+          "predict_moving_average": "9.5401",
+          "predict_naive": "9.9524",
+          "eval_mse_moving_average": 0.4412134658704346,
+          "eval_mse_naive": 0.06345125470340768
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1097",
+          "output": "True next value: 9.1117",
+          "metadata_fold": 2,
+          "predict_moving_average": "10.5573",
+          "predict_naive": "11.0104",
+          "eval_mse_moving_average": 2.0896919549455704,
+          "eval_mse_naive": 3.6051738042689676
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1098",
+          "output": "True next value: 9.6806",
+          "metadata_fold": 3,
+          "predict_moving_average": "10.0836",
+          "predict_naive": "10.3948",
+          "eval_mse_moving_average": 0.16243232645141423,
+          "eval_mse_naive": 0.5100971091071297
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1099",
+          "output": "True next value: 11.0827",
+          "metadata_fold": 4,
+          "predict_moving_average": "9.7023",
+          "predict_naive": "10.5032",
+          "eval_mse_moving_average": 1.905331128368906,
+          "eval_mse_naive": 0.33578932261636546
+        }
+      ]
+    }
+  ]
+}

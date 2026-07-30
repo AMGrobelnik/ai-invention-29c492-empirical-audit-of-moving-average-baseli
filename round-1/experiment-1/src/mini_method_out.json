@@ -1,0 +1,107 @@
+{
+  "datasets": [
+    {
+      "dataset": "synthetic_noisy_time_series",
+      "examples": [
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1000",
+          "output": "True next value: 9.6652",
+          "metadata_fold": 0,
+          "predict_moving_average": "10.3302",
+          "predict_naive": "9.0133",
+          "metadata_mse_ma": 0.4423343692049912,
+          "metadata_mse_naive": 0.4249890935298228
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1001",
+          "output": "True next value: 10.5884",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.3612",
+          "predict_naive": "9.6123",
+          "metadata_mse_ma": 0.051642103006915026,
+          "metadata_mse_naive": 0.9527762367291853
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1002",
+          "output": "True next value: 9.2228",
+          "metadata_fold": 2,
+          "predict_moving_average": "10.0120",
+          "predict_naive": "11.2214",
+          "metadata_mse_ma": 0.6228393162874986,
+          "metadata_mse_naive": 3.994375243052055
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1003",
+          "output": "True next value: 8.3297",
+          "metadata_fold": 3,
+          "predict_moving_average": "8.9841",
+          "predict_naive": "7.4448",
+          "metadata_mse_ma": 0.42819045149410945,
+          "metadata_mse_naive": 0.7830650543193372
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1004",
+          "output": "True next value: 8.9793",
+          "metadata_fold": 4,
+          "predict_moving_average": "9.9467",
+          "predict_naive": "8.7350",
+          "metadata_mse_ma": 0.9359598742051869,
+          "metadata_mse_naive": 0.059656291035033684
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1005",
+          "output": "True next value: 11.1359",
+          "metadata_fold": 0,
+          "predict_moving_average": "9.6283",
+          "predict_naive": "8.9571",
+          "metadata_mse_ma": 2.272870384668126,
+          "metadata_mse_naive": 4.747461204986085
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1006",
+          "output": "True next value: 11.6051",
+          "metadata_fold": 1,
+          "predict_moving_average": "10.3466",
+          "predict_naive": "10.1991",
+          "metadata_mse_ma": 1.5839683473793644,
+          "metadata_mse_naive": 1.9769885194698626
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1007",
+          "output": "True next value: 7.8227",
+          "metadata_fold": 2,
+          "predict_moving_average": "10.2127",
+          "predict_naive": "10.5415",
+          "metadata_mse_ma": 5.712197071444335,
+          "metadata_mse_naive": 7.391561899608156
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1008",
+          "output": "True next value: 8.6398",
+          "metadata_fold": 3,
+          "predict_moving_average": "10.0000",
+          "predict_naive": "9.3725",
+          "metadata_mse_ma": 1.8500703649329653,
+          "metadata_mse_naive": 0.5368704559806381
+        },
+        {
+          "input": "Synthetic time series of length 20 with noise std 1.0, seed 1009",
+          "output": "True next value: 10.2937",
+          "metadata_fold": 4,
+          "predict_moving_average": "9.7645",
+          "predict_naive": "10.2542",
+          "metadata_mse_ma": 0.2800399055802166,
+          "metadata_mse_naive": 0.0015584366321119319
+        }
+      ],
+      "summary_metrics": {
+        "mse_moving_average": 1.5399128887249796,
+        "mse_naive": 1.9094717832935801,
+        "num_trials": 100,
+        "noise_std": 1.0,
+        "length": 20,
+        "improvement_pct": 19.35398563110273
+      }
+    }
+  ]
+}

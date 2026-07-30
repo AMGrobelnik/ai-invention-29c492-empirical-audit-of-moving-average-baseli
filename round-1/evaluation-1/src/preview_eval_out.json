@@ -1,0 +1,38 @@
+{
+  "metrics_agg": {
+    "primary_mse_moving_average": 1.3388961176877527,
+    "primary_mse_naive": 1.9425578987966505,
+    "primary_improvement_pct": 31.07561331803011
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_noisy_time_series",
+      "examples": [
+        {
+          "input": "noise_std_0.5",
+          "output": "improvement_31.08_pct",
+          "eval_mse_ma": 0.3347240294219382,
+          "eval_mse_naive": 0.48563947469916263,
+          "predict_moving_average": "0.3347",
+          "predict_naive": "0.4856"
+        },
+        {
+          "input": "noise_std_1.0",
+          "output": "improvement_31.08_pct",
+          "eval_mse_ma": 1.3388961176877527,
+          "eval_mse_naive": 1.9425578987966505,
+          "predict_moving_average": "1.3389",
+          "predict_naive": "1.9426"
+        },
+        {
+          "input": "noise_std_2.0",
+          "output": "improvement_31.08_pct",
+          "eval_mse_ma": 5.355584470751011,
+          "eval_mse_naive": 7.770231595186602,
+          "predict_moving_average": "5.3556",
+          "predict_naive": "7.7702"
+        }
+      ]
+    }
+  ]
+}

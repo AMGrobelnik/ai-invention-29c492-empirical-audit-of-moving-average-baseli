@@ -1,0 +1,48 @@
+{
+  "evaluation_summary": {
+    "primary_metric": "Mean Squared Error (MSE)",
+    "mse_moving_average": 1.5399128887249796,
+    "mse_naive": 1.9094717832935801,
+    "relative_error_reduction_pct": 19.35398563110273,
+    "paired_t_stat": 2.315510611305387,
+    "paired_p_value": 0.022648644337904936,
+    "num_trials": 100
+  },
+  "sensitivity_analysis_preview": [
+    {
+      "phi": 0.0,
+      "window_size_k": 1,
+      "mse_moving_average": 2.131632764533874,
+      "mse_naive": 2.131632764533874,
+      "improvement_pct": 0.0
+    },
+    {
+      "phi": 0.0,
+      "window_size_k": 2,
+      "mse_moving_average": 1.822089872884289,
+      "mse_naive": 2.370936450047676,
+      "improvement_pct": 23.148936663922413
+    },
+    {
+      "phi": 0.0,
+      "window_size_k": 3,
+      "mse_moving_average": 1.3862283377166835,
+      "mse_naive": 2.0782676179481743,
+      "improvement_pct": 33.29885305698624
+    },
+    {
+      "phi": 0.0,
+      "window_size_k": 4,
+      "mse_moving_average": 1.3111719576279017,
+      "mse_naive": 1.827923912452851,
+      "improvement_pct": 28.26988318849285
+    },
+    {
+      "phi": 0.0,
+      "window_size_k": 5,
+      "mse_moving_average": 1.0887809572131837,
+      "mse_naive": 1.7585668887223225,
+      "improvement_pct": 38.08703187831361
+    }
+  ]
+}
